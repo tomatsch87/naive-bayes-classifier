@@ -26,6 +26,7 @@ python classifier.py --apply
 
 The training and test data should be in JSON format. Each document is represented by a dictionary with the document's tokens and their frequencies, and the document's label.
 Also the vocabulary of all the documents is to be included in the JSON file as a separate dictionary with the tokens and their frequencies.
+
 For example:
 
 ```json
@@ -63,8 +64,10 @@ For example:
 This project requires Python 3 and the following Python libraries installed:
 
 - [sklearn](https://scikit-learn.org/stable/)
+- [numpy](https://numpy.org/)
 - [json](https://docs.python.org/3/library/json.html)
 - [argparse](https://docs.python.org/3/library/argparse.html)
+- [pickle](https://docs.python.org/3/library/pickle.html)
 
 ## License
 
